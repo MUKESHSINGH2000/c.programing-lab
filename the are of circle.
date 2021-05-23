@@ -1,0 +1,13 @@
+#include<stdio.h>
+//This program was developed by Mukesh Singh.
+//Date:20 may,2021
+int main()
+{
+    int num1,num2;
+    const pi= 3.14;
+    float area;
+    num1 = 15;
+    num2 = 25;
+    area =  pi*num1*num2;//Demostration of circle area
+    printf("The area of circle =\t\t%f",area);
+}
