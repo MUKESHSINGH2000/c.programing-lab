@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+main()
+{
+    int length ,breadth;
+    float height;
+    float volume ;
+    length = 10;
+    breadth = 8;
+    height = 5.25;
+    volume = 420.00;
+    printf("The cubiod oflength %d breadth %d  and height %f the total volume of cubiod of%.02f\n",length,breadth,height,volume);
+}
