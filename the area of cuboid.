@@ -1,0 +1,21 @@
+#include<stdio.h>
+//this program was developed by Mukesh Singh.
+//Date:12 may 2021
+int main()
+{
+    float height,base,lenght,area;
+     int a = 2;
+        printf("Enter the value of lenght:");
+        scanf("%f",&lenght);
+
+        printf("Enter the value of height:");
+        scanf("%f",&height);
+        printf("Enter the value of base:");
+
+        scanf("%f",&base);
+        area = a*((lenght+height)+(height*base)+(base*lenght));
+
+        printf("THE AREA OF CUBIOD:\t%f",area);
+        printf("\n\n\nTHANK YOU WACHING THIS PROGRAM!");
+        return 0;
+    }
