@@ -1,0 +1,19 @@
+#include<stdio.h>
+//this program was developed by Mukesh Singh.
+//Date:12 may 2021
+int main()
+{
+    float height,base,area;
+    const float a = .5;
+        
+        printf("Enter the value of height:");
+        scanf("%f",&height);
+        printf("Enter the value of base:");
+
+        scanf("%f",&base);
+        area = a*height*base;
+        
+        printf("THE AREA OF TRIANGLE:\t%f",area);
+        printf("\n\n\nTHANK YOU WACHING THIS PROGRAM!");
+        return 0;
+    }
