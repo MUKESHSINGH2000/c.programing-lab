@@ -1,0 +1,29 @@
+#include <stdio.h>
+//This program was developed by Mukesh Singh.
+//Date: 25 may,2021
+
+int main()
+{
+    char character1,character2;
+    printf("Enter the two character:");
+    scanf("%c %c",&character1,&character2);
+    
+
+    printf("Hello,ASCII value of character1 is %d\n:",character1);
+    printf("Hello,ASCII value of character2 is %d\n:",character2);
+    
+    if(character1>=character2)
+    {
+        printf("you are in 'if'.......");
+    }
+    
+    
+    
+    
+    else
+    {
+        printf("you are in 'else'.......");
+    }
+    
+    return 0;
+}
