@@ -1,0 +1,19 @@
+#include <stdio.h>
+//This program was developed by Mukeash Singh.
+//Date: 24 may, 2021
+
+int main()
+{
+    float length,width,heigth,volume;
+    printf("Enter the value of length:");
+    scanf("%f",&length);
+    printf("Enter the value of width:");
+    scanf("%f",&width);
+    printf("Enter the value of height:");
+    scanf("%f",&heigth);
+    volume = length*width*heigth;
+    printf("THE VOLUME OF CUBOID: %.04f",volume);
+    printf("\n\n\nTHANKS FOR WATCHING THIS PROGRAM");
+
+    return 0;
+}
