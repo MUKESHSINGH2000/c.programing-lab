@@ -1,0 +1,12 @@
+//THIS PROGRAM WAS DEVELOPED BY MUKESH SINGH.
+//DATE:26 MAY ,2021
+#include <stdio.h>
+
+int main() {
+    float number;
+    printf("Entwe a number:");
+    scanf("%f",&number);
+    printf("\n\nThe square of%.02f is %.04f",number,number*number);
+    
+    return 0;
+}
